@@ -7,6 +7,21 @@ a {
   text-decoration: none;
 }
 
+.tag {
+  padding: 4px 12px;
+  color: #FFFFFF;
+  background-color: #4A90E2;
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  border-radius: 4px;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+
 /* СТИЛИ ДЛЯ БЛОКА TOPMENU */
 
 .topmenu {
@@ -51,4 +66,192 @@ a {
 }
 .mostPopular__picContainer {
   display: flex;
+}
+.mostPopular__leftSide {
+  flex: 0 0 32.222%;
+  margin-right: 25px;
+  height: 560px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  background: white center center / cover no-repeat;
+  border-radius: 5px;
+  overflow: hidden;
+
+}
+.mostPopular__rightSide {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: -30px;
+}
+.mostPopular__item {
+  flex: 0 0 48.051948052%;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  overflow: hidden;
+  background: white center center / cover no-repeat;
+}
+
+.mostPopular__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 58px 100px 12px 20px;
+  /* padding-right: 90px; */
+  background: linear-gradient(180deg, rgba(0, 0, 0, 7.5e-05) 0%, rgba(0, 0, 0, 0.75) 82.82%);
+  color: white;
+}
+.mostPopular__label {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+.mostPopular__title {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+/* СТИЛИ ДЛЯ БЛОКА MAINCONTENT */
+
+
+.mainСontent {
+  padding-top: 30px;
+  padding-bottom: 80px;
+  background: #F2F2F2;
+}
+.mainContent__flex {
+  display: flex;
+}
+.mainContent__cardsItems {
+  flex: 0 0 65.811965812%;
+  margin-right: 125px;
+}
+/* .mainContent__cardsItems-item {
+  position: relative;
+} */
+.mainContent__cardsItems-item {
+  position: relative;
+  z-index: 1;
+  padding-top: 315px;
+  margin-bottom: 70px;
+}
+.mainContent__cardsItems-itemPic {
+  border-radius: 8px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+.mainContent__cardsItems-itemContent {
+  background-color: #fff;
+  position: relative;
+  width: 95%;
+  border-radius: 8px;
+  margin: 0 auto;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+  padding-top: 72px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 86px;
+}
+.mainContent__cardsItems-tag {
+  padding: 4px 12px;
+  color: #FFFFFF;
+  background-color: #4A90E2;
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  border-radius: 4px;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+.mainContent__cardsItems-title {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 28px;
+  color: #171717;
+  margin-bottom: 15px;
+}
+.mainContent__cardsItems-label {
+  font-family: PT Sans;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #666666;
+  margin-bottom: 15px;
+}
+.mainContent__cardsItems-description {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #666666;
+}
+.mainContent__sidebar-articlePic {
+  margin-bottom: 20px;
+}
+.mainContent__sidebar-articleName {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  color: #171717;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.mainContent__sidebar-articlePosition {
+  font-family: PT Sans;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #999999;
+  margin-bottom: 14px;
+  text-align: left;
+}
+.mainContent__sidebar-articleContent {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: #666666;
+  margin-bottom: 21px;
+  text-align: left;
+}
+.mainContent__sidebar-articleButton {
+  background: #232323;
+  border-radius: 5px;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FFFFFF;
+  cursor: pointer;
+  padding: 17px 82px;
+  border: none;
 }
