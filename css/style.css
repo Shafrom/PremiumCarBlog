@@ -62,7 +62,6 @@ a {
 .mostPopular__top {
   padding-top: 30px;
   padding-bottom: 35px;
-  background: #F2F2F2;
 }
 .mostPopular__picContainer {
   display: flex;
@@ -129,7 +128,6 @@ a {
 .mainСontent {
   padding-top: 30px;
   padding-bottom: 80px;
-  background: #F2F2F2;
 }
 .mainContent__flex {
   display: flex;
@@ -254,4 +252,171 @@ a {
   cursor: pointer;
   padding: 17px 82px;
   border: none;
+  margin-bottom: 60px;
 }
+.mainContent__sidebar-postsName {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: left;
+  color: #171717;
+  margin-bottom: 23px;
+}
+.mainContent__sidebar-posts {
+  position: relative;
+}
+.mainContent__sidebar-postsPic {
+  margin-bottom: 20px;
+}
+.mainContent__sidebar-postsTitle {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  color: #171717;
+  margin-bottom: 10px;
+}
+.mainContent__sidebar-postsLabel {
+  font-family: PT Sans;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #666666;
+  margin-bottom: 67px;
+}
+.mainContent__sidebar-instagramFlex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.mainContent__sidebar-instagramPic {
+  width: 48.051948052%;
+  margin-bottom: 10px;
+}
+.mainContent__sidebar-instagram-title {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #171717;
+  margin-bottom: 25px;
+}
+.mainContent__sidebar-instagramLinkContain {
+  background: #232323;
+  border-radius: 3px;
+}
+.mainContent__sidebar-instagramLink {
+  padding: 17px 75px;
+  border-radius: 3px;
+  margin-bottom: 60px;
+}
+.mainContent__sidebar-tagsListFlex {
+  display: flex;
+  justify-content: flex-start ;
+  flex-wrap: wrap;
+  margin-right: -10px;
+  margin-bottom: 65px;
+}
+.mainContent__sidebar-tagsList-title {
+  text-align: left;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #171717;
+  margin-bottom: 26px;
+}
+.mainContent__sidebar-tagsList-item {
+  padding: 7px 17px;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #171717;
+  background: #EBEBEB;
+  border-radius: 3px;
+  margin: 0px 10px 10px 0px;
+}
+.mainContent__sidebar-signup-title {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: left;
+  color: #171717;
+  margin-bottom: 12px;
+}
+.mainContent__sidebar-signup-description {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #666666;
+  margin-bottom: 27px;
+}
+.mainContent__sidebar-signup-input {
+  width: 100%;
+  border: 1px solid #E5E5E5;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  padding: 17px 15px;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+}
+.mainContent__sidebar-signup-input::placeholder {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #AEB3BB;
+  text-align: left;
+}
+.mainContent__sidebar-signup-button {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FFFFFF;
+  background: #232323;
+  border-radius: 3px;
+  width: 100%;
+  padding: 17px 15px;
+  border: none;
+  cursor: pointer;
+}
+.center {
+  text-align: center;
+}
+.pagination {
+  display: inline-block;
+}
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+.pagination a.active {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: 1px solid #4CAF50;
+}
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
