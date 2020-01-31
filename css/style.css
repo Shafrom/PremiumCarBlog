@@ -599,6 +599,7 @@ a {
   background: #232323;
   border-radius: 3px;
   border: none;
+  cursor: pointer;
 }
 .footer__bootomSide {
   background: #000000;
